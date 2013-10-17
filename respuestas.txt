@@ -1,0 +1,28 @@
+2) En esta tarea escriba la respuesta a las siguientes preguntas:
+
+  2.1.) ¿Cuál es el error en el código del método para calcular el máximo común divisor?
+
+El error se encuentra en la línea 3 del código, la condición del while debería ser
+
+“while v != 0”.
+
+
+   2.2.) ¿Qué comandos del depurador utilizó para detectarlo? Describa la sesión de depuración.
+
+    Los comandos utilizados para detectar el error en el código mediante el debugger han sido:
+l   Para listar el código.
+
+n  Avanzar línea.
+
+b  Añadir breakpoint (añadiendo el número de línea en el que queremos usarlo)
+
+c  Para ir desde un breakpoint al siguiente.
+
+s  Avanzar línea (entrando a los métodos)
+
+Ejecuté el programa usando el depurador, listé el progama y seguí línea por línea el código hasta encontrar el error al ver qu no entraba en la condición.
+
+
+   2.3.) Escriba la dirección 'HTTP' del repositorio que contiene el desarrollo de su práctica.
+
+
