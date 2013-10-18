@@ -8,4 +8,7 @@ task :install do
   sh "bundle install"
 end
 
-
+desc "Test_Fraccion"
+task :test do
+  sh "ruby -Ilib -Itest ./tc_racional.rb"
+end
